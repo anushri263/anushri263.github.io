@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form class="form1" runat="server">
+        <div class="container mt-5">
+            <h2 style="text-align: center;padding-top: 20px;"><b>Alumini Information Registration!!</b></h2>
+            <br>
+            <hr>
+        
+        
+          <div class="row g-3" style="padding-bottom: 20px;">
+            <div class="col-md-6">
+                <label for="fname" class="form-label"><b>First Name</b></label><br>
+                <input type="text"  class="form-control"  required>
+            </div>
+            
+            <div class="col-md-6">
+                <label for="Lname" class="form-label"><b>Last Name</b></label><br>
+                <input type="text" class="form-control"  name="Lname" required>
+            </div>
+            <div class="col-md-4">
+                <label for="emailInfo" class="form-label"><b>E-mail</b></label>
+                <input type="text" class="form-control" id="emailInfo" required >
+            </div>
+            <div class="col-md-4">
+                <div class="form-group"> <!-- Date input -->
+                    <label class="control-label" for="date"></label><b>Date</b></label>
+                    <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+                  </div>
+                 
+            </div>
+            <div class="col-md-4">
+                <label for="phoneNumber" class="form-label"><b>Phone Number</b></label>
+                <input type="text" class="form-control" id="phoneNumber" placeholder="(999) 999-9999">
+            </div>
+            <div class="col-md-12">
+                <label for="Address" class="form-label"><b>Address</b></label>
+                <textarea class="form-control" id="Address" rows="3"></textarea>
+            </div>
+            
+            <div class="col-md-4">
+               <div class="form-group">
+                  <label for="cars"><b>Degree</b></label>
+                   <select class="form-select" name="degree">
+                      <option value="MCA">MCA</option>
+                      <option value="MBA">MBA</option>
+                      <option value="MSC">MSC</option>
+                      <option value="MPhil">MPhil</option>
+                  </select>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="form-group">
+                   <label for="cars"><b>Subject</b></label>
+                    <select class="form-select" name="subject">
+                       <option value="Cs">Cs</option>
+                       <option value="Maths">Maths</option>
+                       <option value="Physics">Physics</option>
+                       <option value="English">English</option>
+                       <option value="History">History</option>
+                       <option value="Geography">Geography</option>
+                       <option value="Biology">Biology</option>
+                       <option value="English">English</option>   
+                   </select>
+                 </div>
+             </div>
+
+             <div class="col-md-4">
+                <div class="form-group">
+                   <label for="cars"><b>Year Of Graduation</b></label>
+                    <select class="form-select" name="year">
+                       <option value="Cs">2016</option>
+                       <option value="Maths">2017</option>
+                       <option value="Physics">2018</option>
+                       <option value="English">2019</option>
+                       <option value="History">2020</option>
+                       <option value="Geography">2021</option>
+                       <option value="Biology">2022</option>
+                       <option value="English">2023</option>   
+                   </select>
+                 </div>
+             </div>
+             <div class="col-md-4">
+                <label for="status" class="form-label"><b>Present status</b></label>
+                <input type="text" class="form-control" id="status" required >
+            </div>
+            <div class="col-md-4">
+                <label for="working place" class="form-label"><b>Present Working Place</b></label>
+                <input type="text" class="form-control" id="working place" required >
+            </div>
+            <div class="col-md-4">
+                <label for="Interest" class="form-label"><b>Area Of Interest</b></label>
+                <input type="text" class="form-control" id="Interest" required >
+            </div>
+
+            <div class="col-md-12">
+                <label for="Nostalgia" class="form-label"><b>Nostalgia/Memorable event</b></label>
+                <textarea class="form-control" id="Nostalgia" rows="3"></textarea>
+            </div>
+
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+
+          </div>
+          </div>
+        
+    </form> 
+    
+</body>
+</html>
+
+
+
